@@ -39,6 +39,11 @@ export const NavLogo = styled(LinkR)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
+    &: hover {
+        color: #01bf71;
+        transition: 0.2s ease-in-out;
+    }
 `;
 
 export const MobileIcon = styled.div`
@@ -53,6 +58,11 @@ export const MobileIcon = styled.div`
         font-size: 1.8rem;
         cursor: pointer;
         color: #fff;
+    }
+
+    &: hover {
+        color: #01bf71;
+        transition: 0.2s ease-in-out;
     }
 `;
 
@@ -84,6 +94,11 @@ export const NavLinks = styled(LinkS)`
     &.active{
         border-bottom: 3px solid #01bf71;
     }
+
+    &: hover {
+        color: #01bf71;
+        transition: 0.2s ease-in-out;
+    }
 `;
 
 export const NavButton = styled.nav`
@@ -99,7 +114,7 @@ export const NavButtonLink = styled(LinkS)`
     border-radius: 50px;
     background: #01bf71;
     white-space: nowrap;
-    padding: 10px 22px;
+    padding: 15px 30px;
     color: #010606;
     font-size: 16px;
     outline: none;

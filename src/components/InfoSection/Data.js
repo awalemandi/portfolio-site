@@ -3,10 +3,10 @@ import frontEndStack from '../../images/technologies.png';
 
 export const homeOjectOne = {
     id: 'about',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: '',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'RESUME',
     headline: 'ABOUT ME',
     description: 'Born at the base of the Himalayas....',
     buttonLabel: 'Get Resume',
@@ -14,15 +14,15 @@ export const homeOjectOne = {
     img: profilePhoto,
     alt: 'Me',
     dark: false,
-    primary: true,
+    primary: false,
     darkText: false
 };
 
 export const homeOjectTwo = {
     id: 'skills',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'SKILLS',
     headline: 'Tools and technologies',
     description: '',
@@ -32,5 +32,5 @@ export const homeOjectTwo = {
     alt: 'Tech Stack',
     dark: false,
     primary: false,
-    darkText: false
+    darkText: true
 };

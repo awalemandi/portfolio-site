@@ -21,7 +21,7 @@ export const HeroSection = () => {
                         Front End Developer.
                     </HeroP>
                     <HeroButtonWrapper>
-                        <Button to='skills'
+                        <Button to='about'
                             smooth={true}
                             duration={500}
                             spy={true}

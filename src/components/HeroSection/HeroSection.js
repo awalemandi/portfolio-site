@@ -11,7 +11,7 @@ export const HeroSection = () => {
 
     return (
         <>
-            <HeroContainer>
+            <HeroContainer id='hero'>
                 <HeroBg>
                     <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
                 </HeroBg>
@@ -23,7 +23,7 @@ export const HeroSection = () => {
                     <HeroButtonWrapper>
                         <Button to='about'
                             smooth={true}
-                            duration={500}
+                            duration={800}
                             spy={true}
                             exact='true'
                             offset={-80}

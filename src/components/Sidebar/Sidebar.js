@@ -10,11 +10,48 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to='skills' onClick={toggle}>Skills</SidebarLink>
-                    <SidebarLink to='projects' onClick={toggle}>Projects</SidebarLink>
+                    <SidebarLink
+                        to='about'
+                        smooth={true}
+                        duration={800}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        onClick={toggle}
+                    >
+                        About
+                    </SidebarLink>
+                    <SidebarLink
+                        to='skills'
+                        smooth={true}
+                        duration={800}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        onClick={toggle}
+                    >
+                        Skills
+                    </SidebarLink>
+                    <SidebarLink
+                        to='projects'
+                        smooth={true}
+                        duration={800}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        onClick={toggle}
+                    >
+                        Projects
+                    </SidebarLink>
                     <SidebarButton>
-                        <SidebarButtonLink to='contact' onClick={toggle}>Contact</SidebarButtonLink>
+                        <SidebarButtonLink
+                            to='contact'
+                            smooth={true}
+                            duration={800}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                            onClick={toggle}>Contact</SidebarButtonLink>
                     </SidebarButton>
                 </SidebarMenu>
             </SidebarWrapper>

@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
+import Footer from '../components/Footer/Footer';
 import HeroSection from '../components/HeroSection/HeroSection';
-import { homeOjectOne, homeOjectTwo } from '../components/InfoSection/Data';
+import { homeOjectOne, homeOjectTwo, homeObjectThree } from '../components/InfoSection/Data';
 import InfoSection from '../components/InfoSection/InfoSection';
 import Navbar from '../components/Navbar/Navbar';
-import Projects from '../components/Services/Projects';
+import Projects from '../components/Projects/Projects';
 import Sidebar from '../components/Sidebar/Sidebar';
 
 const Home = () => {
@@ -21,6 +22,8 @@ const Home = () => {
             <InfoSection {...homeOjectOne} />
             <InfoSection {...homeOjectTwo} />
             <Projects />
+            <InfoSection {...homeObjectThree} />
+            <Footer />
         </>
     )
 }

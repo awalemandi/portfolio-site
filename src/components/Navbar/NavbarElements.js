@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: #000;
+    background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
@@ -40,7 +40,7 @@ export const NavLogo = styled(LinkR)`
     font-weight: bold;
     text-decoration: none;
 
-    &: hover {
+    &:hover {
         color: #01bf71;
         transition: 0.2s ease-in-out;
     }
@@ -60,7 +60,7 @@ export const MobileIcon = styled.div`
         color: #fff;
     }
 
-    &: hover {
+    &:hover {
         color: #01bf71;
         transition: 0.2s ease-in-out;
     }
@@ -87,17 +87,12 @@ export const NavLinks = styled(LinkS)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 1rem;
     height: 100%;
     cursor: pointer;
 
     &.active{
         border-bottom: 3px solid #01bf71;
-    }
-
-    &: hover {
-        color: #01bf71;
-        transition: 0.2s ease-in-out;
     }
 `;
 

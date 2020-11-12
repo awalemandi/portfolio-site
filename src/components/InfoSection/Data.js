@@ -36,3 +36,21 @@ export const homeOjectTwo = {
     primary: false,
     darkText: true
 };
+
+export const homeObjectThree = {
+    id: 'contact',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Contact',
+    headline: 'Let\'s Talk!',
+    description: 'Interested to work with me? Great!',
+    buttonLabel: 'Get Resume',
+    imgStart: false,
+    img: profilePhoto,
+    alt: 'contact',
+    scrollTo: 'skills',
+    dark: false,
+    primary: false,
+    darkText: false
+};

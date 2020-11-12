@@ -1,17 +1,36 @@
+import profilePhoto from '../../images/profile.jpg';
+import frontEndStack from '../../images/technologies.png';
 
 export const homeOjectOne = {
     id: 'about',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Top line',
+    topLine: '',
     headline: 'ABOUT ME',
     description: 'Born at the base of the Himalayas....',
     buttonLabel: 'Get Resume',
     imgStart: true,
-    img: require('../../images/profile.jpg'),
+    img: profilePhoto,
     alt: 'Me',
     dark: false,
+    primary: true,
+    darkText: false
+};
+
+export const homeOjectTwo = {
+    id: 'skills',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'SKILLS',
+    headline: 'Tools and technologies',
+    description: '',
+    buttonLabel: 'See Projects',
+    imgStart: false,
+    img: frontEndStack,
+    alt: 'Tech Stack',
+    dark: false,
     primary: false,
-    darkText: true
+    darkText: false
 };

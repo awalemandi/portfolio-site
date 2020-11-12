@@ -13,6 +13,7 @@ export const homeOjectOne = {
     imgStart: true,
     img: profilePhoto,
     alt: 'Me',
+    scrollTo: 'skills',
     dark: false,
     primary: false,
     darkText: false
@@ -30,6 +31,7 @@ export const homeOjectTwo = {
     imgStart: false,
     img: frontEndStack,
     alt: 'Tech Stack',
+    scrollTo: 'projects',
     dark: false,
     primary: false,
     darkText: true

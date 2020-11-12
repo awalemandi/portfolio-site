@@ -21,7 +21,12 @@ export const HeroSection = () => {
                         Front End Developer.
                     </HeroP>
                     <HeroButtonWrapper>
-                        <Button to='about'
+                        <Button to='skills'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             big='true'

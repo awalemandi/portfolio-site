@@ -63,7 +63,7 @@ export const ProjectsIcon = styled.img`
 
 export const ProjectsH1 = styled.h1`
     font-size: 2.5rem;
-    color: #fff;
+    color: #f9813a;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {

@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
+const orangeMain = '#f9813a';
+const orangeAccent = '#febf63';
+const blackMain = '#010606';
+
+
 export const Button = styled(Link)`
     border-radius: 50px;
-    background: ${({ primary }) => (primary ? '#ff4a1c' : '#010606')};
+    background: ${({ primary }) => (primary ? orangeMain : blackMain)};
     white-space: nowrap;
-    padding: ${({ big }) => (big ? '18px 40px' : '14px 30px')};
-    color: ${({ dark }) => (dark ? '#010606' : '#fff')};
+    padding: ${({ big }) => (big ? '18px 25px' : '14px 30px')};
+    color: ${({ dark }) => (dark ? blackMain : orangeMain)};
     font-size: ${({ big }) => (big ? '20px' : '16px')};
     outline: none;
     border: none;
@@ -18,6 +23,35 @@ export const Button = styled(Link)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({ primary }) => (primary ? '#ffb347' : '#ff1f1f')};
+        background: ${({ primary }) => (primary ? orangeAccent : orangeMain)};
+        color: #010606;
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
     }
 `
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

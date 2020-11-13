@@ -41,7 +41,7 @@ export const NavLogo = styled(LinkS)`
     text-decoration: none;
 
     &:hover {
-        color: #01bf71;
+        color: #febf63;
         transition: 0.2s ease-in-out;
     }
 `;
@@ -61,8 +61,9 @@ export const MobileIcon = styled.div`
     }
 
     &:hover {
-        color: #01bf71;
+        color: #febf63;
         transition: 0.2s ease-in-out;
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
     }
 `;
 
@@ -91,8 +92,13 @@ export const NavLinks = styled(LinkS)`
     height: 80px;
     cursor: pointer;
 
+    &:hover {
+        color: #febf63;
+    }
+    
     &.active {
-        border-bottom: 3px solid #01bf71;
+        transition: all 0.1s;
+        border-bottom: 3px solid #f9813a;
     }
 `;
 
@@ -108,7 +114,7 @@ export const NavButton = styled.nav`
 export const NavButtonLink = styled(LinkS)`
     margin: 0 20px;
     border-radius: 50px;
-    background: #01bf71;
+    background: #f9813a;
     white-space: nowrap;
     padding: 15px 30px;
     color: #010606;
@@ -121,7 +127,7 @@ export const NavButtonLink = styled(LinkS)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
+        background: #febf63;
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
     }
 `;

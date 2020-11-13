@@ -30,8 +30,8 @@ export const Icon = styled.div`
     cursor: pointer;
     outline: none;
 
-    &: hover {
-        color: #01bf71;
+    &:hover {
+        color: #febf63;
         transition: 0.2s ease-in-out;
     }
 `;
@@ -45,7 +45,7 @@ export const SidebarMenu = styled.ul`
     grid-template-rows: repeat(6, 80px);
     text-align: center;
 
-    @media screen and (max width: 480px) {
+    @media screen and (max-width: 480px) {
         grid-template-rows: repeat(6, 60px);
     }
 `;
@@ -62,8 +62,8 @@ export const SidebarLink = styled(LinkS)`
     color: #fff;
     cursor: pointer;
 
-    &: hover {
-        color: #01bf71;
+    &:hover {
+        color: #febf63;
         transition: 0.2s ease-in-out;
     }
 `;
@@ -75,7 +75,7 @@ export const SidebarButton = styled.div`
 
 export const SidebarButtonLink = styled(LinkS)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #f9813a;
     white-space: nowrap;
     padding: 20px 35px;
     color: #010606;
@@ -88,7 +88,7 @@ export const SidebarButtonLink = styled(LinkS)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
+        background: #febf63;
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
     } 
 `;

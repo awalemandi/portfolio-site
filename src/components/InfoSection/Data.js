@@ -14,7 +14,7 @@ export const homeOjectOne = {
     img: profilePhoto,
     alt: 'Me',
     scrollTo: 'skills',
-    dark: false,
+    dark: true,
     primary: true,
     darkText: false
 };

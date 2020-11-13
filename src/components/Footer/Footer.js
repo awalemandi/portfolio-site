@@ -29,27 +29,6 @@ const Footer = () => {
                             <FooterLink>About me</FooterLink>
                             <FooterLink>About me</FooterLink>
                             <FooterLink>About me</FooterLink>
-                            <FooterLink>About me</FooterLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>
-                                Footer Down Here
-                            </FooterLinkTitle>
-                            <FooterLink>About me</FooterLink>
-                            <FooterLink>About me</FooterLink>
-                            <FooterLink>About me</FooterLink>
-                            <FooterLink>About me</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>
-                                Footer Down Here
-                            </FooterLinkTitle>
-                            <FooterLink>About me</FooterLink>
-                            <FooterLink>About me</FooterLink>
-                            <FooterLink>About me</FooterLink>
-                            <FooterLink>About me</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>
@@ -68,15 +47,15 @@ const Footer = () => {
                         </Logo>
                         <WebsiteRights>Mandi Awale © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href='/' target='_blank'
+                            <SocialIconLink href='https://www.linkedin.com/in/mandi-awale/' target='_blank'
                             aria-label='LinkedIn'>
                                 <FaLinkedin/>
                             </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank'
+                            <SocialIconLink href='https://www.instagram.com/cussinstoic/' target='_blank'
                                 aria-label='Instagram'>
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank'
+                            <SocialIconLink href='https://github.com/awalemandi' target='_blank'
                                 aria-label='GitHub'>
                                 <FaGithub />
                             </SocialIconLink>

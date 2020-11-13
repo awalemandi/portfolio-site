@@ -89,7 +89,8 @@ export const FooterLogo = styled.img`
     width: auto;
     justify-self: flex-start;
     cursor: pointer;
-    margin-left: 24px;
+    margin-left: 20px;
+    margin-bottom: 16px;
 `;
 
 export const WebsiteRights = styled.small`

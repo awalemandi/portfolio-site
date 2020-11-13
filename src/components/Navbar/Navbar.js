@@ -32,11 +32,23 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>MADS</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}>&lt;M/&gt;</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars/>
                     </MobileIcon>
                     <NavMenu>
+                        <NavItem>
+                            <NavLinks
+                                to='home'
+                                smooth={true}
+                                duration={800}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >
+                                Home
+                            </NavLinks>
+                        </NavItem>
                         <NavItem>
                             <NavLinks
                                 to='about'
@@ -74,18 +86,20 @@ const Navbar = ({ toggle }) => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavButton>
-                                <NavButtonLink
-                                    to='contact'
-                                    smooth={true}
-                                    duration={800}
-                                    spy={true}
-                                    exact='true'
-                                    offset={-80}
-                                >
-                                    Contact
+                            <NavLinks>
+                                <NavButton>
+                                    <NavButtonLink
+                                        to='contact'
+                                        smooth={true}
+                                        duration={800}
+                                        spy={true}
+                                        exact='true'
+                                        offset={-80}
+                                    >
+                                        Contact
                                 </NavButtonLink>
-                            </NavButton>
+                                </NavButton>
+                            </NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

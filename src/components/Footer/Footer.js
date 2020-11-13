@@ -64,7 +64,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrapper>
                         <Logo to='/'>
-                            MADS
+                            &lt;M/&gt;
                         </Logo>
                         <WebsiteRights>Mandi Awale © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>

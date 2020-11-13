@@ -84,21 +84,12 @@ export const SocialMediaWrapper = styled.div`
     }
 `;
 
-export const Logo = styled(Link)`
-    color: #fff;
-    justify-self: start;
+export const FooterLogo = styled.img`
+    height: 60px;
+    width: auto;
+    justify-self: flex-start;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
-    font-weight: bold;
-
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        color: #febf63;
-    }
+    margin-left: 24px;
 `;
 
 export const WebsiteRights = styled.small`

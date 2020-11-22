@@ -18,7 +18,7 @@ export const HeroSection = () => {
                 <HeroContent>
                     <HeroH1>Hi, I'm Mads Awale</HeroH1>
                     <HeroP>
-                        Front End Developer.
+                        Front End Dev
                     </HeroP>
                     <HeroButtonWrapper>
                         <Button to='about'

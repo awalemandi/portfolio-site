@@ -1,15 +1,17 @@
 import profilePhoto from '../../images/profile.jpg';
 import frontEndStack from '../../images/technologies.png';
 
+
+
 export const homeOjectOne = {
     id: 'about',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'About me',
-    headline: '',
-    description: 'Born at the base of the Himalayas....',
-    buttonLabel: 'Get Resume',
+    topLine: 'About',
+    headline: 'Me',
+    description: `Born at the base of the Himalayas....`,
+    buttonLabel: 'See skills',
     imgStart: true,
     img: profilePhoto,
     alt: 'Me',

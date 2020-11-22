@@ -14,6 +14,8 @@ import {
 } from './NavbarElements';
 
 import Logo from '../../images/logo.png';
+import Resume from '../../pages/resume.pdf';
+
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false);
@@ -88,20 +90,26 @@ const Navbar = ({ toggle }) => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks>
+                            <NavLinks
+                                to='contact'
+                                smooth={true}
+                                duration={800}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >
+                                Contact
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
                                 <NavButton>
                                     <NavButtonLink
-                                        to='contact'
-                                        smooth={true}
-                                        duration={800}
-                                        spy={true}
-                                        exact='true'
-                                        offset={-80}
-                                    >
-                                        Contact
-                                </NavButtonLink>
+                                        href={Resume}
+                                        target='_blank'
+                                        >
+                                        Resume
+                                    </NavButtonLink>
                                 </NavButton>
-                            </NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

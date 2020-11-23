@@ -54,7 +54,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
     color: #f9813a;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -64,7 +64,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 25px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
@@ -91,8 +91,9 @@ export const ImageWrap = styled.div`
     max-width: 555px;
     height: 100%;
 `;
+
 export const Image = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    padding-right: 0;
+    /* padding-right: 0; */
 `;

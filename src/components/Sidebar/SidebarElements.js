@@ -41,7 +41,7 @@ export const SidebarWrapper = styled.div`
 `;
 export const SidebarMenu = styled.ul`
     display: grid;
-    grid-template-colums: 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 80px);
     text-align: center;
 
@@ -66,11 +66,17 @@ export const SidebarLink = styled(LinkS)`
         color: #febf63;
         transition: 0.2s ease-in-out;
     }
+
+    &.active {
+        transition: all 0.1s;
+        color: #f9813a;
+    }
 `;
 export const SidebarButton = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1.5rem;
 `;
 
 export const SidebarButtonLink = styled(LinkS)`
@@ -90,5 +96,5 @@ export const SidebarButtonLink = styled(LinkS)`
         transition: all 0.2s ease-in-out;
         background: #febf63;
         box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-    } 
+    }
 `;

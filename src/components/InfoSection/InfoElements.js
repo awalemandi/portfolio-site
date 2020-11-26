@@ -21,7 +21,8 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 768px) {
-        height: 1210px;
+        height: auto;
+        padding: 45px 0;
     }
 `;
 
@@ -53,7 +54,6 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
-    padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`

@@ -111,6 +111,7 @@ export const SocialIconLink = styled.a`
 
     &:hover {
         transition: all 0.2s ease-in-out;
+        transform: scale(1.1);
         color: #f9813a;
     }
 `;

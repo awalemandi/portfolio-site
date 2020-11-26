@@ -1,6 +1,6 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarButton, SidebarButtonLink } from './SidebarElements';
-
+import Resume from '../../pages/resume.pdf';
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
@@ -54,15 +54,25 @@ const Sidebar = ({ isOpen, toggle }) => {
                     >
                         Projects
                     </SidebarLink>
+                    <SidebarLink
+                        to='contact'
+                        smooth={true}
+                        duration={800}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        onClick={toggle}
+                    >
+                        Contact
+                    </SidebarLink>
                     <SidebarButton>
                         <SidebarButtonLink
-                            to='contact'
-                            smooth={true}
-                            duration={800}
-                            spy={true}
-                            exact='true'
-                            offset={-80}
-                            onClick={toggle}>Contact</SidebarButtonLink>
+                            href={Resume}
+                            target='_blank'
+                            onClick={toggle}
+                        >
+                            Resume
+                        </SidebarButtonLink>
                     </SidebarButton>
                 </SidebarMenu>
             </SidebarWrapper>

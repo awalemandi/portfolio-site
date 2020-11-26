@@ -65,6 +65,7 @@ export const ProjectsH1 = styled.h1`
     font-size: 2rem;
     color: #f9813a;
     margin-bottom: 64px;
+    text-transform: uppercase;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;

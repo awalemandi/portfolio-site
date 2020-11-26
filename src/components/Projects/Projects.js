@@ -16,7 +16,7 @@ const Projects = () => {
     return (
         <>
             <ProjectsContainer id='projects'>
-                <ProjectsH1>RECENT PROJECTS</ProjectsH1>
+                <ProjectsH1>Recent Projects</ProjectsH1>
                 <ProjectsWrapper>
                     <ProjectsCard>
                         <ProjectsIcon src={Icon1} />

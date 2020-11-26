@@ -1,6 +1,7 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaHackerrank } from 'react-icons/fa';
+import {SiCodecademy} from 'react-icons/si';
 import {
     FooterContainer,
     FooterWrapper,
@@ -26,42 +27,35 @@ const Footer = () => {
     return (
         <FooterContainer id='footer'>
             <FooterWrapper>
-                <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>
-                                Footer Down Here
-                            </FooterLinkTitle>
-                            <FooterLink>About me</FooterLink>
-                            <FooterLink>About me</FooterLink>
-                            <FooterLink>About me</FooterLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>
-                                Socials
-                            </FooterLinkTitle>
-                            <FooterLink>Instagram</FooterLink>
-                            <FooterLink>LinkedIn</FooterLink>
-                            <FooterLink>GitHub</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrapper>
                         <FooterLogo src={Logo} onClick={toggleHome} />
-                        <WebsiteRights>Mandi Awale © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                        <WebsiteRights>
+                            <FooterLink href='https://github.com/awalemandi' target='_blank'>
+                                Mandi Awale
+                            </FooterLink>
+                            <span> </span> © {new Date().getFullYear()} All rights reserved.
+                        </WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='https://www.linkedin.com/in/mandi-awale/' target='_blank'
                             aria-label='LinkedIn'>
                                 <FaLinkedin/>
                             </SocialIconLink>
-                            <SocialIconLink href='https://www.instagram.com/cussinstoic/' target='_blank'
-                                aria-label='Instagram'>
-                                <FaInstagram />
-                            </SocialIconLink>
                             <SocialIconLink href='https://github.com/awalemandi' target='_blank'
                                 aria-label='GitHub'>
                                 <FaGithub />
+                            </SocialIconLink>
+                            <SocialIconLink href='https://www.codecademy.com/profiles/mawale' target='_blank'
+                                aria-label='Codecademy'>
+                                <SiCodecademy />
+                            </SocialIconLink>
+                            <SocialIconLink href='https://www.hackerrank.com/mads_awale' target='_blank'
+                                aria-label='Hackerrank'>
+                                <FaHackerrank />
+                            </SocialIconLink>
+                            <SocialIconLink href='https://www.instagram.com/cussinstoic/' target='_blank'
+                                aria-label='Instagram'>
+                                <FaInstagram />
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrapper>

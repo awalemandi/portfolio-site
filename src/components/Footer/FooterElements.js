@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 export const FooterContainer = styled.footer`
-    background-color: #101522;
+    background-color: #161A1D;
 `;
 
 export const FooterWrapper = styled.div`
@@ -54,7 +54,7 @@ export const FooterLinkTitle = styled.h1`
     margin-bottom: 16px;
 `;
 
-export const FooterLink = styled(Link)`
+export const FooterLink = styled.a`
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;

@@ -19,6 +19,10 @@ export const InfoWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        height: 1210px;
+    }
 `;
 
 export const InfoRow = styled.div`
@@ -59,7 +63,7 @@ export const TopLine = styled.p`
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 `;
 
 export const Heading = styled.h1`
@@ -70,7 +74,7 @@ export const Heading = styled.h1`
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
     @media screen and (max-width: 480px) {
-        font-size: 32px;
+        font-size: 25px;
     }
 `;
 
@@ -95,5 +99,4 @@ export const ImageWrap = styled.div`
 export const Image = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    /* padding-right: 0; */
 `;

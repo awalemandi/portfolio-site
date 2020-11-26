@@ -15,7 +15,7 @@ import {
     Image
 } from './InfoElements';
 
-const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, description, primary, scrollTo, dark, darkText, buttonLabel, img, alt}) => {
+const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, description, conclusion, primary, scrollTo, dark, darkText, buttonLabel, img, alt}) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -26,6 +26,7 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, desc
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                                <Subtitle darkText={darkText}>{conclusion}</Subtitle>
                                 <ButtonWrap>
                                     <Button
                                         to={scrollTo}

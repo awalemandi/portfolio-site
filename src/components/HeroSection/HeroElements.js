@@ -52,11 +52,13 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 `;
 export const HeroH1 = styled.h1`
     color: #fff;
     font-size: 48px;
     text-align: center;
+    text-shadow: 2px 3px #010606;
 
     @media screen and (max-width: 768px) {
         font-size: 40px;
@@ -67,12 +69,29 @@ export const HeroH1 = styled.h1`
     }
 `;
 
+export const HeroH2 = styled.h2`
+    color: #febf63;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 2px #010606;
+
+    @media screen and (max-width: 768px) {
+        font-size: 22px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 16px;
+    }
+`;
+
 export const HeroP = styled.p`
     margin-top: 24px;
     color: #fff;
     font-size: 24px;
     text-align: center;
-    max-width: 600px;
+    max-width: 650px;
+    text-shadow: 1px 2px #010606;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
@@ -83,7 +102,7 @@ export const HeroP = styled.p`
     }
 `;
 export const HeroButtonWrapper = styled.div`
-    margin-top: 32px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;

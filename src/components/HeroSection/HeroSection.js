@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroButtonWrapper, ArrowForward, ArrowRight } from './HeroElements';
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroH2, HeroP, HeroButtonWrapper, ArrowForward, ArrowRight } from './HeroElements';
 import { Button } from '../../components/Button';
 import Video from '../../videos/hero.mp4';
 
@@ -16,9 +16,10 @@ export const HeroSection = () => {
                     <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
                 </HeroBg>
                 <HeroContent>
-                    <HeroH1>Hi, I'm Mads Awale</HeroH1>
+                    <HeroH1>Hello, I'm Mads.</HeroH1>
+                    <HeroH2>Front End Developer</HeroH2>
                     <HeroP>
-                        Front End Dev
+                        I'm interested in building serviceable and scalable web applications which are efficient, intuitive and aesthetic.
                     </HeroP>
                     <HeroButtonWrapper>
                         <Button to='about'

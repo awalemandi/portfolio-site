@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaFileDownload } from 'react-icons/fa';
 import {
     Nav,
     NavbarContainer,
@@ -107,7 +107,7 @@ const Navbar = ({ toggle }) => {
                                         href={Resume}
                                         target='_blank'
                                         >
-                                        Resume
+                                    Resume <FaFileDownload/>
                                     </NavButtonLink>
                                 </NavButton>
                         </NavItem>

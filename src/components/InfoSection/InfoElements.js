@@ -59,9 +59,9 @@ export const TextWrapper = styled.div`
 export const TopLine = styled.p`
     color: #f9813a;
     font-size: 20px;
-    line-height: 16px;
+    line-height: 1.1;
     font-weight: 700;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-bottom: 20px;
 `;
@@ -99,4 +99,34 @@ export const ImageWrap = styled.div`
 export const Image = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
+`;
+
+export const Input = styled.input.attrs(props => ({
+    type: 'text',
+    name: props.name,
+    size: props.size || '1em',
+}))`
+    color: #010101;
+    font-size: 1em;
+    border: 2px solid #f9813a;
+    border-radius: 3px;
+    margin: 1em;
+    padding: 1em;
+`;
+
+export const ActionButton = styled.button`
+    color: #010101;
+    background-color: #f9813a;
+    font-size: 1em;
+    margin: 2em 1em;
+    padding: 0.25em 1em;
+    border: 2px solid #010101;
+    border-radius: 3px;
+
+    &:hover {
+        color: #f9813a;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        background-color: #010606;
+    }
 `;

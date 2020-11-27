@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../Button';
+import ContactForm from '../ContactForm';
 import { 
     InfoContainer,
     InfoWrapper,
@@ -12,10 +13,11 @@ import {
     Subtitle,
     ButtonWrap,
     ImageWrap,
-    Image
+    Image,
+    Input
 } from './InfoElements';
 
-const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, firstHeadline, secondHeadline, firstParagraph, secondParagraph, primary, scrollTo, dark, darkText, buttonLabel, img, alt}) => {
+const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, firstHeadline, secondHeadline, firstParagraph, secondParagraph, thirdParagraph, primary, scrollTo, dark, darkText, buttonLabel, img, alt, content}) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -28,6 +30,8 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, firstHeadline,
                                 <Subtitle darkText={darkText}>{firstParagraph}</Subtitle>
                                 <Heading lightText={lightText}>{secondHeadline}</Heading>
                                 <Subtitle darkText={darkText}>{secondParagraph}</Subtitle>
+                                {content ? <ContactForm /> : <></>}
+                                <Subtitle darkText={darkText}>{thirdParagraph}</Subtitle>
                                 <ButtonWrap>
                                     <Button
                                         to={scrollTo}

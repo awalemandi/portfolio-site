@@ -32,7 +32,7 @@ const Footer = () => {
                         <FooterLogo src={Logo} onClick={toggleHome} />
                         <WebsiteRights>
                             <FooterLink href='https://github.com/awalemandi' target='_blank'>
-                                Mandi Awale
+                                Mads Awale
                             </FooterLink>
                             <span> </span> © {new Date().getFullYear()} All rights reserved.
                         </WebsiteRights>

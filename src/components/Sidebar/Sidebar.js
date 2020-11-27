@@ -1,5 +1,6 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarButton, SidebarButtonLink } from './SidebarElements';
+import { FaFileDownload } from 'react-icons/fa';
 import Resume from '../../pages/resume.pdf';
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -71,7 +72,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                             target='_blank'
                             onClick={toggle}
                         >
-                            Resume
+                            Resume <FaFileDownload />
                         </SidebarButtonLink>
                     </SidebarButton>
                 </SidebarMenu>

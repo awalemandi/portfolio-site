@@ -55,9 +55,10 @@ export const homeObjectThree = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Contact',
-    firstHeadline: '',
-    firstParagraph: 'Interested in working with me? Awesome!',
-    secondParagraph: ``,
+    firstHeadline: '📧 mandi.awale@gmail.com', 
+    firstParagraph: '',
+    secondParagraph: `Interested in working with me? Awesome! Send me a message.`,
+    thirdParagraph: `Too formal? DM me on social media instead.`,
     buttonLabel: 'Checkout Socials',
     imgStart: false,
     img: contact,
@@ -65,5 +66,6 @@ export const homeObjectThree = {
     scrollTo: 'footer',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    content: 'form'
 };

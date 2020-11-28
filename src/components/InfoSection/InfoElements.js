@@ -22,7 +22,7 @@ export const InfoWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         height: auto;
-        padding: 45px 0;
+        padding: 0 0;
     }
 `;
 
@@ -102,7 +102,19 @@ export const Image = styled.img`
 `;
 
 export const Input = styled.input.attrs(props => ({
-    type: 'text',
+    type: props.type,
+    name: props.name,
+    size: props.size || '1em',
+}))`
+    color: #010101;
+    font-size: 1em;
+    border: 2px solid #f9813a;
+    border-radius: 3px;
+    margin: 1em;
+    padding: 1em;
+`;
+
+export const TextArea = styled.textarea.attrs(props => ({
     name: props.name,
     size: props.size || '1em',
 }))`

@@ -58,7 +58,7 @@ export const homeObjectThree = {
     firstHeadline: '📧 mandi.awale@gmail.com', 
     firstParagraph: '',
     secondParagraph: `Interested in working with me? Awesome! Send me a message.`,
-    thirdParagraph: `Too formal? DM me on social media instead.`,
+    thirdParagraph: `Too formal? DM me on social media instead. ⬇`, 
     buttonLabel: 'Checkout Socials',
     imgStart: false,
     img: contact,

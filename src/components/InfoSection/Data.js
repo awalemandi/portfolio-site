@@ -1,5 +1,5 @@
 import profilePhoto from '../../images/profile.jpg';
-import frontEndStack from '../../images/tools.png';
+import frontEndStack from '../../images/stack.png';
 import contact from '../../images/message.png';
 
 
@@ -15,7 +15,11 @@ export const homeOjectOne = {
         I am a self-taught developer currently working as a datacentre field engineer with thousands of noisy servers as my closest companions. I want to explore the software side of the Internet for a change and also level up my coding game.
     `,
     secondParagraph: `
-        I'm super passionate about most topics in the domain of science, technology, business and finance. I like to see myself as a perpetual learner with an obsessive need to improve and the discipline to follow through. Click below to see what I've been learning recently.
+        I'm super passionate about most topics in the domain of science, technology, business and finance. I like to see myself as a perpetual learner with an obsessive need to improve and the discipline to follow through.
+    `,
+    thirdParagraph: `
+        When I am free, I like to read, make coffee with my aeropress, cook and eat delicious food, bake artisan bread, play boardgames or learn something new.
+        Click below to see what I've been learning recently (in addition to juggling).
     `,
     buttonLabel: 'See skills',
     imgStart: true,
@@ -55,7 +59,7 @@ export const homeObjectThree = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Contact',
-    firstHeadline: '📧 mandi.awale@gmail.com', 
+    firstHeadline: '📧 madsAwale@gmail.com', 
     firstParagraph: '',
     secondParagraph: `Interested in working with me? Awesome! Send me a message.`,
     thirdParagraph: `Too formal? DM me on social media instead. ⬇`, 

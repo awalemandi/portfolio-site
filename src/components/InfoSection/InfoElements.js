@@ -22,7 +22,7 @@ export const InfoWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         height: auto;
-        padding: 0 0;
+        padding: 1.5em 0;
     }
 `;
 
@@ -89,6 +89,7 @@ export const Subtitle = styled.p`
 export const ButtonWrap = styled.div`
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 1em;
 `;
 
 export const ImageWrap = styled.div`

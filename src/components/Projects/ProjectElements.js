@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-    height: 890px;
+    height: 1100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,13 +23,13 @@ export const ProjectsWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     align-items: center;
     grid-gap: 16px;
     padding: 0 50px;
 
     @media screen and (max-width: 1000px) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     @media screen and (max-width: 768px) {
@@ -41,7 +41,6 @@ export const ProjectsWrapper = styled.div`
 export const ProjectsCard = styled.div`
     background: #fff;
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
@@ -55,6 +54,19 @@ export const ProjectsCard = styled.div`
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
+`
+export const ProjectsThumbnail = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+export const ProjectsDescription = styled.div`
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
 `
 
 export const ProjectsIcon = styled.img`
@@ -81,5 +93,5 @@ export const ProjectsH2 = styled.h2`
 
 export const ProjectsP = styled.p`
     font-size: 1 rem;
-    text-align: center;
+    text-align: left;
 `

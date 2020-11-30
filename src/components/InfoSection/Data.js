@@ -18,7 +18,7 @@ export const homeOjectOne = {
         I'm super passionate about most topics in the domain of science, technology, business and finance. I like to see myself as a perpetual learner with an obsessive need to improve and the discipline to follow through.
     `,
     thirdParagraph: `
-        When I am free, I like to read, make coffee with my aeropress, cook and eat delicious food, bake artisan bread, play boardgames or learn something new.
+        When I'm free, I like to read, brew coffee with my aeropress, cook (& eat) delicious food, bake artisan bread, play boardgames or learn something new.
         Click below to see what I've been learning recently (in addition to juggling).
     `,
     buttonLabel: 'See skills',

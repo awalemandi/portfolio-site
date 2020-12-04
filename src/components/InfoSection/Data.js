@@ -43,6 +43,9 @@ export const homeOjectTwo = {
     secondParagraph: `
         Git / VS Code / NodeJS / Firebase / Material UI / Netlify
     `,
+    thirdParagraph: `
+    I am always trying out new things. Hence, I've come across a bunch of the other tools and technologies throughout my learning experience.
+    `,
     buttonLabel: 'See Projects',
     imgStart: false,
     img: frontEndStack,

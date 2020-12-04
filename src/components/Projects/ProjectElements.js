@@ -54,6 +54,7 @@ export const ProjectsCard = styled.div`
     overflow: auto;
 
     @media screen and (max-width: 768px) {
+        flex-direction: column;
         width: 100%;
         max-height: 450px;
     }
@@ -86,7 +87,7 @@ export const ProjectsDescription = styled.div`
 
 export const ProjectsIcon = styled.img`
     height: 250px;
-    width: 250px;
+    width: 400px;
     margin-bottom: 10px;
 `
 
@@ -113,18 +114,31 @@ export const ProjectsP = styled.p`
 export const IconsWrapper = styled.div`
     margin-top: 1em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 240px;
 `;
 
 export const IconLink = styled.a`
     color: #010606;
-    font-size: 24px;
+    font-size: 15px;
+    text-decoration: none;
+    opacity: 0.7;
+
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+        opacity: 1;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 12px;
+        opacity: 1;
+    }
 
     &:hover {
         cursor: pointer;
         transition: all 0.2s ease-in-out;
-        transform: scale(1.2);
+        // transform: scale(1.1);
+        opacity: 1;
     }
 `;

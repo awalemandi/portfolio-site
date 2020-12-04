@@ -33,13 +33,13 @@ const Projects = () => {
                                                 href={project.liveLink}
                                                 target='_blank'
                                             >
-                                                <MdOpenInNew />
+                                                <MdOpenInNew /> Live
                                             </IconLink>
                                             <IconLink
                                                 href={project.repoLink}
                                                 target='_blank'
                                             >
-                                                <BiCodeCurly />
+                                                <BiCodeCurly /> Source Code
                                             </IconLink>
                                         </IconsWrapper>
                                     </ProjectsThumbnail>

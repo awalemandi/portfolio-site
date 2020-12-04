@@ -39,15 +39,29 @@ export const ProjectsWrapper = styled.div`
 `
 
 export const ProjectsCard = styled.div`
+    margin-top: 10px;
     background: #fff;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
-    padding: 30px;
+    max-height: 400px;
+    width: 100%;
+    padding: 20px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
+    overflow: auto;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        max-height: 450px;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        width: 100%;
+        max-height: 450px;
+    }
 
     &:hover {
         transform: scale(1.02);
@@ -62,23 +76,24 @@ export const ProjectsThumbnail = styled.div`
     align-items: center;
 `
 export const ProjectsDescription = styled.div`
-    margin-left: 1rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: left;
+    min-height: 150px;
 `
 
 export const ProjectsIcon = styled.img`
-    height: 160px;
-    width: 160px;
+    height: 250px;
+    width: 250px;
     margin-bottom: 10px;
 `
 
 export const ProjectsH1 = styled.h1`
     font-size: 2rem;
     color: #f9813a;
-    margin-bottom: 64px;
+    margin-bottom: 30px;
     text-transform: uppercase;
 
     @media screen and (max-width: 480px) {

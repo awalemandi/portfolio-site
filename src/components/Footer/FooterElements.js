@@ -77,7 +77,7 @@ export const SocialMediaWrapper = styled.div`
     justify-content: space-between;
     align-items: center;
     max-width: 1100px;
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
 
     @media screen and (max-width: 820px) {
         flex-direction: column;
@@ -89,13 +89,13 @@ export const FooterLogo = styled.img`
     width: auto;
     justify-self: flex-start;
     cursor: pointer;
-    margin-left: 20px;
-    margin-bottom: 16px;
+
 `;
 
 export const WebsiteRights = styled.small`
     color: #fff;
     margin-bottom: 16px;
+    text-align: center;
 `;
 
 export const SocialIcons = styled.div`
@@ -112,6 +112,25 @@ export const SocialIconLink = styled.a`
     &:hover {
         transition: all 0.2s ease-in-out;
         transform: scale(1.1);
-        color: #f9813a;
+        color: #febf63;
+    }
+`;
+
+export const NavigationButton = styled.button`
+    margin-top: 0;
+    padding: '14px 30px';
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #f9813a;
+    font-size: 3em;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        transform: scale(1.1);
+        color: #febf63;
     }
 `;

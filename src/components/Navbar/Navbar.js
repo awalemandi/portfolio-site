@@ -13,7 +13,7 @@ import {
     NavButtonLink
 } from './NavbarElements';
 
-import Logo from '../../images/logo_transparent.png';
+import Logo from '../../images/logo.png';
 import Resume from '../../pages/resume.pdf';
 
 

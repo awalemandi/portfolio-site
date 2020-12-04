@@ -7,14 +7,15 @@ const blackMain = '#010606';
 
 
 export const Button = styled(Link)`
-    border-radius: 50px;
+    border-radius: 8px;
     background: ${({ primary }) => (primary ? orangeMain : blackMain)};
     white-space: nowrap;
     padding: ${({ big }) => (big ? '18px 25px' : '14px 30px')};
     color: ${({ dark }) => (dark ? blackMain : orangeMain)};
+    opacity: ${({ transparent }) => (transparent ? 0.9 : 1)};
     font-size: ${({ big }) => (big ? '18px' : '16px')};
     outline: none;
-    border: none;
+    border: 3px solid;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -25,7 +26,7 @@ export const Button = styled(Link)`
         transition: all 0.2s ease-in-out;
         background: ${({ primary }) => (primary ? orangeAccent : orangeMain)};
         color: #010606;
-        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .1);
     }
 `
 

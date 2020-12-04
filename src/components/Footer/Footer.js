@@ -1,6 +1,7 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import { FaGithub, FaInstagram, FaLinkedin, FaHackerrank } from 'react-icons/fa';
+import { TiArrowUpOutline } from 'react-icons/ti';
 import {SiCodecademy} from 'react-icons/si';
 import {
     FooterContainer,
@@ -15,9 +16,10 @@ import {
     FooterLogo,
     WebsiteRights,
     SocialIcons,
-    SocialIconLink
+    SocialIconLink,
+    NavigationButton
 } from './FooterElements';
-import Logo from '../../images/logo_transparent.png';
+import Logo from '../../images/logo.png';
 
 const Footer = () => {
     const toggleHome = () => {
@@ -27,6 +29,9 @@ const Footer = () => {
     return (
         <FooterContainer id='footer'>
             <FooterWrapper>
+                <NavigationButton onClick={toggleHome}>
+                    <TiArrowUpOutline />
+                </NavigationButton>
                 <SocialMedia>
                     <SocialMediaWrapper>
                         <FooterLogo src={Logo} onClick={toggleHome} />

@@ -32,6 +32,7 @@ export const HeroSection = () => {
                             onMouseLeave={onHover}
                             big='true'
                             primary='true'
+                            transparent='true'
                             dark='true'
                         >
                             Know more { hover ? <ArrowForward /> : <ArrowRight/> }

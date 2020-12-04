@@ -12,7 +12,7 @@ export const SidebarContainer = styled.aside`
     align-items: center;
     top: 0;
     left: 0;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `;
@@ -79,8 +79,8 @@ export const SidebarButton = styled.div`
     margin-top: 1.5rem;
 `;
 
-export const SidebarButtonLink = styled(LinkS)`
-    border-radius: 50px;
+export const SidebarButtonLink = styled.a`
+    border-radius: 15px;
     background: #f9813a;
     white-space: nowrap;
     padding: 20px 35px;

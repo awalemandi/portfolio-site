@@ -38,7 +38,7 @@ export const homeOjectTwo = {
     lightTextDesc: false,
     topLine: 'Skills: Languagues and Frameworks',
     firstHeadline: 'HTML / CSS / JS / REACTJS',
-    firstParagraph: 'I’ve always preached the “fundamentals first” approach in the past and have stuck to the same principle for learning web development. I intend to really take the time to understand the building blocks upon which the modern internet is built. ',
+    firstParagraph: 'I’ve always preached the “fundamentals first” approach in the past and have stuck to the same principle for learning web development. I intend to really understand the building blocks upon which the modern internet is built. ',
     secondHeadline: 'Other Tools',
     secondParagraph: `
         Git / VS Code / NodeJS / Firebase / Material UI / Netlify
@@ -62,7 +62,7 @@ export const homeObjectThree = {
     firstHeadline: '📧 madsAwale@gmail.com', 
     firstParagraph: '',
     secondParagraph: `Interested in working with me? Awesome! Send me a message.`,
-    thirdParagraph: `Too formal? DM me on social media instead. ⬇`, 
+    thirdParagraph: `Or DM me on social media instead.`, 
     buttonLabel: 'Checkout Socials',
     imgStart: false,
     img: contact,

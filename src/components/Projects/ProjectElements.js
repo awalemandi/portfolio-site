@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-    height: 1100px;
+    height: auto;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +67,6 @@ export const ProjectsCard = styled.div`
     &:hover {
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
-        cursor: pointer;
     }
 `
 export const ProjectsThumbnail = styled.div`
@@ -110,3 +110,21 @@ export const ProjectsP = styled.p`
     font-size: 1 rem;
     text-align: left;
 `
+export const IconsWrapper = styled.div`
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 240px;
+`;
+
+export const IconLink = styled.a`
+    color: #010606;
+    font-size: 24px;
+
+    &:hover {
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        transform: scale(1.2);
+    }
+`;

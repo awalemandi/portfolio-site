@@ -9,7 +9,7 @@ export const homeOjectOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'About Me',g
+    topLine: 'About Me',
     firstHeadline: 'DC Field Engineer / Developer ',
     firstParagraph: `
         I am a self-taught developer (Network Security graduate) currently working as a datacentre field engineer with thousands of screaming servers as my closest companions. I want to explore the software side of the Internet for a change and also level up my coding game.

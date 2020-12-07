@@ -12,7 +12,7 @@ export const homeOjectOne = {
     topLine: 'About Me',
     firstHeadline: 'DC Field Engineer / Developer ',
     firstParagraph: `
-        I am a self-taught developer (Network Security graduate) currently working as a datacentre field engineer with thousands of screaming servers as my closest companions. I want to explore the software side of the Internet for a change and also level up my coding game.
+        I am a self-taught developer currently working as a datacentre field engineer with thousands of screaming servers as my close companions. I want to explore the software side of the Internet for a change and also level up my coding game.
     `,
     secondParagraph: `
         I'm super passionate about most topics in the domain of science, technology, business and finance. I like to see myself as a perpetual learner with an obsessive need to improve and the discipline to follow through.

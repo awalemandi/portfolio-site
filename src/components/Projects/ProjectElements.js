@@ -36,6 +36,7 @@ export const ProjectsWrapper = styled.div`
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
         padding: 0 20px;
+        grid-gap: 30px;
     }
 `
 
@@ -50,8 +51,7 @@ export const ProjectsCard = styled.div`
     width: 100%;
     padding: 20px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s ease-in-out;
-    overflow: auto;
+    transition: all 0.6s ease-in-out;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -66,11 +66,13 @@ export const ProjectsCard = styled.div`
     }
 
     &:hover {
-        transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
+        background: #fc4a1a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 `
 export const ProjectsThumbnail = styled.div`
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,12 +85,19 @@ export const ProjectsDescription = styled.div`
     justify-content: flex-start;
     align-items: left;
     min-height: 150px;
+    overflow-y: auto;
 `
 
 export const ProjectsIcon = styled.img`
+    border-radius: 5px;
     height: 250px;
     width: 400px;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
+        height: auto;
+    }
 `
 
 export const ProjectsH1 = styled.h1`
@@ -122,8 +131,10 @@ export const IconsWrapper = styled.div`
 export const IconLink = styled.a`
     color: #010606;
     font-size: 15px;
+    font-weight: bold;
     text-decoration: none;
     opacity: 0.7;
+    transition: all 0.4s ease-in-out;
 
     @media screen and (max-width: 768px) {
         font-size: 12px;
@@ -138,7 +149,7 @@ export const IconLink = styled.a`
     &:hover {
         cursor: pointer;
         transition: all 0.2s ease-in-out;
-        // transform: scale(1.1);
+        transform: scale(1.01);
         opacity: 1;
     }
 `;

@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+const orangeMain = '#f9813a';
+const orangeAccent = '#febf63';
+const blackMain = '#010606';
+
 export const ProjectsContainer = styled.div`
     height: auto;
     padding: 2rem;
@@ -56,14 +60,9 @@ export const ProjectsCard = styled.div`
     @media screen and (max-width: 768px) {
         flex-direction: column;
         width: 100%;
-        max-height: 450px;
+        min-height: 600px;
     }
 
-    @media screen and (max-width: 480px) {
-        flex-direction: column;
-        width: 100%;
-        max-height: 450px;
-    }
 
     &:hover {
         background: #fc4a1a;  /* fallback for old browsers */
@@ -78,6 +77,19 @@ export const ProjectsThumbnail = styled.div`
     justify-content: center;
     align-items: center;
 `
+export const ProjectsInfo = styled.div`
+    width: 100%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        min-width: auto;
+    }
+`
+
 export const ProjectsDescription = styled.div`
     margin: 1rem;
     display: flex;
@@ -85,7 +97,40 @@ export const ProjectsDescription = styled.div`
     justify-content: flex-start;
     align-items: left;
     min-height: 150px;
+    max-height: 200px;
     overflow-y: auto;
+
+    @media screen and (max-width: 768px) {
+        max-height: 160px;
+    }
+
+    @media screen and (max-width: 480px) {
+        max-height: 160px;
+    }    
+`
+export const TagsWrapper = styled.div`
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+`;
+
+export const Tags = styled.div`
+    margin: 5px;
+    border-radius: 50px;
+    background: #febf63;
+    white-space: nowrap;
+    padding: 2px 5px;
+    color: #010606;
+    font-size: 0.8em;
+    outline: none;
+    border: 1px solid;
+    cursor: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 export const ProjectsIcon = styled.img`

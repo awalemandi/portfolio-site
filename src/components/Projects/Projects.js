@@ -5,7 +5,10 @@ import {
     ProjectsWrapper,
     ProjectsCard,
     ProjectsThumbnail,
+    ProjectsInfo,
     ProjectsDescription,
+    TagsWrapper,
+    Tags,
     ProjectsIcon,
     ProjectsH1,
     ProjectsH2,
@@ -43,10 +46,19 @@ const Projects = () => {
                                             </IconLink>
                                         </IconsWrapper>
                                     </ProjectsThumbnail>
+                                    <ProjectsInfo>
                                     <ProjectsDescription>
                                         <ProjectsH2>{project.name}</ProjectsH2>
                                         <ProjectsP>{project.description}</ProjectsP>
                                     </ProjectsDescription>
+                                    <TagsWrapper>
+                                        {project.tags.map(tag => {
+                                            return(
+                                                <Tags>{tag}</Tags>
+                                            )
+                                        })}
+                                    </TagsWrapper>
+                                    </ProjectsInfo>
                                 </ProjectsCard>
                             );
                         }

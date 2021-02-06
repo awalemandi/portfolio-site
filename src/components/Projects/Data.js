@@ -1,13 +1,25 @@
-import Icon1 from '../../videos/jotitGIF.gif';
+import Icon4 from '../../videos/tallyPreview.PNG';
+import Icon3 from '../../videos/jotitGIF.gif';
 import Icon2 from '../../videos/jammingGIF.gif';
-import Icon3 from '../../videos/portfolioGIF.gif';
+import Icon1 from '../../videos/portfolioGIF.gif';
 
 
 export const projectsArray = [
     {
-        id: 1,
+        id: 4,
+        name: 'Tally (WIP)',
+        thumbnail: Icon4,
+        description: `
+            Tally is a concept personal finance app for individuals to track their debts which uses a comprehensive visual dashboard to display valuable data with the means of various charts and graphs. 
+        `,
+        liveLink: 'https://github.com/awalemandi/tally',
+        repoLink: 'https://github.com/awalemandi/tally',
+        tags: ['Typescript', 'React', 'React Router', 'Hooks','Redux','ChartJS', 'Data Visualisation', 'MUI', 'React Spring', ]
+    },
+    {
+        id: 3,
         name: 'Jot it',
-        thumbnail: Icon1,
+        thumbnail: Icon3,
         description: `
             A concept full stack application for jotting down and revisiting insights from reads. It uses React Hooks to manipulate the DOM, context API for state management and firebase(firestore) to store/retrieve realtime data. 
             The app uses prestyled components from the Material UI library combined with the realtime database functionality of firestore to provide a clean and responsive UX.
@@ -28,9 +40,9 @@ export const projectsArray = [
         tags: ['React', 'Component Lifecycle', 'REST API', 'CSS', 'Netlify' ]
     },
     {
-        id: 3,
+        id: 1,
         name: 'Portfolio site',
-        thumbnail: Icon3,
+        thumbnail: Icon1,
         description: `
             A modern, fully responsive and versatile website with a consistent theme, reusable components, multiple levels of customization and aesthetic features such as smooth scroll and on scroll transparent navbar.
         `,

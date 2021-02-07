@@ -1,4 +1,4 @@
-import Icon4 from '../../videos/tallyPreview.PNG';
+import Icon4 from '../../videos/tallyGIF.gif';
 import Icon3 from '../../videos/jotitGIF.gif';
 import Icon2 from '../../videos/jammingGIF.gif';
 import Icon1 from '../../videos/portfolioGIF.gif';
@@ -14,7 +14,7 @@ export const projectsArray = [
         `,
         liveLink: 'https://github.com/awalemandi/tally',
         repoLink: 'https://github.com/awalemandi/tally',
-        tags: ['Typescript', 'React', 'React Router', 'Hooks','Redux','ChartJS', 'Data Visualisation', 'MUI', 'React Spring', ]
+        tags: [ 'Typescript', 'React', 'React Router', 'Hooks', 'Redux', 'ChartJS', 'Data Visualisation', 'MUI', 'React Spring', ]
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ export const projectsArray = [
         `,
         liveLink: 'https://www.jotit.live/',
         repoLink: 'https://github.com/awalemandi/jot-it',
-        tags: ['React', 'Context API', 'Hooks', 'Firebase', 'Firestore', 'React form', 'CSS', 'MUI']
+        tags: [ 'React', 'Context API', 'Hooks', 'Firebase', 'Firestore', 'React form', 'CSS', 'MUI' ]
     },
     {
         id: 2,
@@ -37,7 +37,7 @@ export const projectsArray = [
         `,
         liveLink: 'https://www.jammingplus.xyz/',
         repoLink: 'https://github.com/awalemandi/jamming/',
-        tags: ['React', 'Component Lifecycle', 'REST API', 'CSS', 'Netlify' ]
+        tags: [ 'React', 'Component Lifecycle', 'REST API', 'CSS', 'Netlify' ]
     },
     {
         id: 1,
@@ -48,6 +48,6 @@ export const projectsArray = [
         `,
         liveLink: 'https://www.madsawale.me/',
         repoLink: 'https://github.com/awalemandi/portfolio-site',
-        tags: ['React', 'CSS', 'Hooks', 'Styled Components','React Scroll', 'Netlify']
+        tags: [ 'React', 'CSS', 'Hooks', 'Styled Components', 'React Scroll', 'Netlify' ]
     },
-]
+];

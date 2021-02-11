@@ -51,8 +51,8 @@ export const ProjectsCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 400px;
     width: 100%;
+    height: auto;
     padding: 20px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.6s ease-in-out;
@@ -60,9 +60,14 @@ export const ProjectsCard = styled.div`
     @media screen and (max-width: 768px) {
         flex-direction: column;
         width: 100%;
-        min-height: 600px;
+        height: auto;
     }
 
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    } 
 
     &:hover {
         background: #fc4a1a;  /* fallback for old browsers */
@@ -109,12 +114,12 @@ export const ProjectsDescription = styled.div`
     }    
 `
 export const TagsWrapper = styled.div`
-    padding: 1em;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    height: auto;
 `;
 
 export const Tags = styled.div`

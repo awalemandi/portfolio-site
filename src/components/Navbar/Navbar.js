@@ -14,8 +14,6 @@ import {
 } from './NavbarElements';
 
 import Logo from '../../images/logo.png';
-import Resume from '../../pages/resume.pdf';
-
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false);
@@ -30,15 +28,15 @@ const Navbar = ({ toggle }) => {
 
     const toggleHome = () => {
         scroll.scrollToTop();
-    }
+    };
 
     return (
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo src={Logo} onClick={toggleHome}/>
+                    <NavLogo src={Logo} onClick={toggleHome} />
                     <MobileIcon onClick={toggle}>
-                        <FaBars/>
+                        <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
@@ -102,14 +100,14 @@ const Navbar = ({ toggle }) => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                                <NavButton>
-                                    <NavButtonLink
-                                        href={Resume}
-                                        target='_blank'
-                                        >
-                                    Resume <FaFileDownload/>
-                                    </NavButtonLink>
-                                </NavButton>
+                            <NavButton>
+                                <NavButtonLink
+                                    href='https://drive.google.com/file/d/1X-0hntpFN3PKiCq5HYSf1r8c6wOCX8jT/view?usp=sharing'
+                                    target='_blank'
+                                >
+                                    Resume <FaFileDownload />
+                                </NavButtonLink>
+                            </NavButton>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

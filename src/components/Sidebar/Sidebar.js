@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarButton, SidebarButtonLink } from './SidebarElements';
 import { FaFileDownload } from 'react-icons/fa';
-import Resume from '../../pages/resume.pdf';
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
@@ -68,7 +67,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     </SidebarLink>
                     <SidebarButton>
                         <SidebarButtonLink
-                            href={Resume}
+                            href='https://drive.google.com/file/d/1X-0hntpFN3PKiCq5HYSf1r8c6wOCX8jT/view?usp=sharing'
                             target='_blank'
                             onClick={toggle}
                         >

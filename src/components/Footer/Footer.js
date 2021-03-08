@@ -1,8 +1,8 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { FaGithub, FaInstagram, FaLinkedin, FaHackerrank } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaHackerrank, FaReddit } from 'react-icons/fa';
 import { TiArrowUpOutline } from 'react-icons/ti';
-import {SiCodecademy} from 'react-icons/si';
+import { SiCodecademy } from 'react-icons/si';
 import {
     FooterContainer,
     FooterWrapper,
@@ -24,27 +24,27 @@ import Logo from '../../images/logo.png';
 const Footer = () => {
     const toggleHome = () => {
         scroll.scrollToTop();
-    }
+    };
 
     return (
         <FooterContainer id='footer'>
             <FooterWrapper>
-                <NavigationButton onClick={toggleHome}>
+                <NavigationButton onClick={ toggleHome }>
                     <TiArrowUpOutline />
                 </NavigationButton>
                 <SocialMedia>
                     <SocialMediaWrapper>
-                        <FooterLogo src={Logo} onClick={toggleHome} />
+                        <FooterLogo src={ Logo } onClick={ toggleHome } />
                         <WebsiteRights>
                             <FooterLink href='https://github.com/awalemandi' target='_blank'>
                                 Mads Awale
                             </FooterLink>
-                            <span> </span> © {new Date().getFullYear()} All rights reserved.
+                            <span> </span> © { new Date().getFullYear() } All rights reserved.
                         </WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='https://www.linkedin.com/in/mandi-awale/' target='_blank'
-                            aria-label='LinkedIn'>
-                                <FaLinkedin/>
+                                aria-label='LinkedIn'>
+                                <FaLinkedin />
                             </SocialIconLink>
                             <SocialIconLink href='https://github.com/awalemandi' target='_blank'
                                 aria-label='GitHub'>
@@ -62,12 +62,16 @@ const Footer = () => {
                                 aria-label='Instagram'>
                                 <FaInstagram />
                             </SocialIconLink>
+                            <SocialIconLink href='https://www.reddit.com/user/cussinstoic/' target='_blank'
+                                aria-label='Reddit'>
+                                <FaReddit />
+                            </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrapper>
                 </SocialMedia>
             </FooterWrapper>
         </FooterContainer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

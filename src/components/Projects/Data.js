@@ -10,11 +10,11 @@ export const projectsArray = [
         name: 'Tally (WIP)',
         thumbnail: Icon4,
         description: `
-            Tally is a concept personal finance app for individuals to track their debts which uses a comprehensive visual dashboard to display valuable data with the means of various charts and graphs. 
+            A personal finance app for tracking financial records and displaying valuable data in real time through a comprehensive dashboard. It uses ChartJS/MUI for building the dashboard and other front end components, Redux(Thunk) for state management and firebase for authentication and database.
         `,
         liveLink: 'https://github.com/awalemandi/tally',
         repoLink: 'https://github.com/awalemandi/tally',
-        tags: [ 'Typescript', 'React', 'React Router', 'Hooks', 'Redux', 'ChartJS', 'Data Visualisation', 'MUI', 'React Spring', ]
+        tags: [ 'Typescript', 'React', 'React Router', 'Redux-Thunk', 'Authenticaton', 'Firebase', 'ChartJS', 'Data Visualisation', 'MUI',  ]
     },
     {
         id: 3,

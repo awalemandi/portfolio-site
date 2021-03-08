@@ -37,11 +37,11 @@ export const homeOjectTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Skills: Languagues and Frameworks',
-    firstHeadline: 'HTML / CSS / JS / REACTJS',
+    firstHeadline: 'HTML / CSS / JS / TS / REACTJS',
     firstParagraph: 'I’ve always preached the “fundamentals first” approach in the past and have stuck to the same principle for learning web development. I intend to really understand the building blocks upon which the modern internet is built. ',
     secondHeadline: 'Other Tools',
     secondParagraph: `
-        Git / VS Code / NodeJS / Firebase / Material UI / Netlify
+        Git / VS Code / NodeJS / Redux / Firebase / ChartJS / Material UI
     `,
     thirdParagraph: `
     I am always trying out new things. Hence, I've come across a bunch of the other tools and technologies throughout my learning experience.
@@ -49,7 +49,7 @@ export const homeOjectTwo = {
     buttonLabel: 'See Projects',
     imgStart: false,
     img: frontEndStack,
-    alt: 'Tech Stack',
+    alt: 'Front end technologies',
     scrollTo: 'projects',
     dark: false,
     primary: false,

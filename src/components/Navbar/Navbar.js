@@ -15,6 +15,8 @@ import {
 
 import Logo from '../../images/logo.png';
 
+import {resumeLink} from '../../updateInfo';
+
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false);
 
@@ -102,7 +104,7 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavButton>
                                 <NavButtonLink
-                                    href='https://drive.google.com/file/d/1X-0hntpFN3PKiCq5HYSf1r8c6wOCX8jT/view?usp=sharing'
+                                    href={resumeLink}
                                     target='_blank'
                                 >
                                     Resume <FaFileDownload />

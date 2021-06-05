@@ -1,6 +1,6 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { FaGithub, FaInstagram, FaLinkedin, FaHackerrank, FaReddit } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaHackerrank, FaReddit, FaTwitter } from 'react-icons/fa';
 import { TiArrowUpOutline } from 'react-icons/ti';
 import { SiCodecademy } from 'react-icons/si';
 import {
@@ -61,6 +61,10 @@ const Footer = () => {
                             <SocialIconLink href='https://www.instagram.com/cussinstoic/' target='_blank'
                                 aria-label='Instagram'>
                                 <FaInstagram />
+                            </SocialIconLink>
+                            <SocialIconLink href='https://twitter.com/cussinstoic/' target='_blank'
+                                aria-label='Reddit'>
+                                <FaTwitter />
                             </SocialIconLink>
                             <SocialIconLink href='https://www.reddit.com/user/cussinstoic/' target='_blank'
                                 aria-label='Reddit'>

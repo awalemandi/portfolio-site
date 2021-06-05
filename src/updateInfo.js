@@ -1,1 +1,1 @@
-export const resumeLink = 'https://drive.google.com/file/d/1mCh_CO9QgWTLQCdyekN1SzF6xDBnX_W9/view?usp=sharing';
+export const resumeLink = 'https://www.canva.com/design/DAEPZcWcqS8/4WdtHOn2OFHyjnNfJgbYYA/view?utm_content=DAEPZcWcqS8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink';

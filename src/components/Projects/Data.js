@@ -1,4 +1,5 @@
-import Icon4 from '../../videos/tallyGIF.gif';
+import Icon5 from '../../videos/tallyGIF.gif';
+import Icon4 from '../../videos/starwarsGIF.gif';
 import Icon3 from '../../videos/jotitGIF.gif';
 import Icon2 from '../../videos/jammingGIF.gif';
 import Icon1 from '../../videos/portfolioGIF.gif';
@@ -6,15 +7,26 @@ import Icon1 from '../../videos/portfolioGIF.gif';
 
 export const projectsArray = [
     {
-        id: 4,
+        id: 5,
         name: 'Tally (WIP)',
-        thumbnail: Icon4,
+        thumbnail: Icon5,
         description: `
             A personal finance app for tracking financial records and displaying valuable data in real time through a comprehensive dashboard. It uses ChartJS/MUI for building the dashboard and other front end components, Redux(Thunk) for state management and firebase for authentication and database.
         `,
         liveLink: 'https://github.com/awalemandi/tally',
         repoLink: 'https://github.com/awalemandi/tally',
-        tags: [ 'Typescript', 'React', 'React Router', 'Redux-Thunk', 'Authenticaton', 'Firebase', 'ChartJS', 'Data Visualisation', 'MUI',  ]
+        tags: [ 'Typescript', 'React', 'React Router', 'Redux-Thunk', 'Authenticaton', 'Firebase', 'ChartJS', 'Data Visualisation', 'MUI', ]
+    },
+    {
+        id: 4,
+        name: 'Star Wars Library',
+        thumbnail: Icon4,
+        description: `
+            A Star Wars themed NextJS website which uses a custom hook to fetch the SW API and get list of movies and relevant information. Movies can be favorited, which moves it to the top of the list or vice versa. The state of favorite movies persists in local storage using another custom hook. The site is styled with custom SCSS which includes a dark theme implemented using mixins.
+        `,
+        liveLink: 'https://star-wars-library.vercel.app/',
+        repoLink: 'https://github.com/awalemandi/star-wars-library',
+        tags: [ 'NextJS', 'Sass', 'NextRouter', 'Client-side render', 'API', 'Custom hooks', 'Dark theme', 'Context', 'Local Storage', 'Vercel' ]
     },
     {
         id: 3,

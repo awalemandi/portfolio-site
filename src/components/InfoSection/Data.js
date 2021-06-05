@@ -41,7 +41,7 @@ export const homeOjectTwo = {
     firstParagraph: 'I’ve always preached the “fundamentals first” approach in the past and have stuck to the same principle for learning web development. I intend to really understand the building blocks upon which the modern internet is built. ',
     secondHeadline: 'Other Tools',
     secondParagraph: `
-        Git / VS Code / NodeJS / Redux / Firebase / ChartJS / Material UI
+        Git / Python/ NextJS / Sass / Redux / Firebase / ChartJS / Material UI
     `,
     thirdParagraph: `
     I am always trying out new things. Hence, I've come across a bunch of the other tools and technologies throughout my learning experience.
